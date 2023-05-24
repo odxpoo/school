@@ -1,0 +1,32 @@
+Drogi Kliencie,
+
+w 2017 roku wprowadziliśmy aliasy służące do łączenia się z serwerem bazy danych. Alias lub nazwa hosta jest skonstruowany w następujący sposób: "<NomDeLaBase>.mysql.db".
+
+UWAGA: począwszy od 31.08.2021, z związku ze stałym podnoszeniem jakości usług i zwiększaniem ich bezpieczeństwa, dopuszczalne będą jedynie połączenia zgodne z formatem "<NomDeLaBase>.mysql.db".
+
+Jeśli nie wprowadzisz odpowiednich modyfikacji, po upływie wskazanej wyżej daty połączenie między stroną(ami) WWW na Twoim hostingu a powiązaną bazą danych przestanie działać.
+
+Twój hosting: thehosting.pl
+Twoja baza danych: thehostingthe.mysql.db
+
+
+
+- Jakie kroki powinieneś przeprowadzić?
+
+Prosimy o sprawdzenie wszystkich połączeń i ewentualne zmodyfikowanie tych, które używają nazwy serwera innej niż: "NomDeLaBase>.mysql.db". Modyfikacje należy wprowadzić bezpośrednio w plikach wszystkich stron WWW, które korzystają z tej bazy danych.
+
+Jeśli uważasz, że nie posiadasz odpowiednich umiejętności, aby to zrobić, zalecamy skorzystanie z profesjonalnej pomocy.
+
+
+
+- Gdzie znajdziesz nazwę hosta Twoje bazy danych?
+
+W przypadku baz danych "Start SQL", informację tę znajdziesz w zakładce "Baza danych" na Twoim hostingu, w tabeli, w kolumnie "Adres serwera".
+
+W przypadku baz danych "Private SQL", nazwa hosta serwera jest widoczna w zakładce "Informacje ogólne" dotyczące serwera bazy danych, w ramce "Administracja bazą danych" pod wzmianką "Nazwa hosta" w sekcji SQL.
+
+Dziękujemy za zaufanie i pozostajemy do dyspozycji.
+
+
+Z poważaniem,
+Biuro Obsługi Klienta OVHcloud

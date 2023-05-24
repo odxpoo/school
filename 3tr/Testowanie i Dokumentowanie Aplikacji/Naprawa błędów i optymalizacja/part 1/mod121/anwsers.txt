@@ -1,0 +1,5 @@
+Time required: 1h+-
+Cost: 100zł prywatnie / minimalna stawka, jeżeli ciągle jest z niej profit dla firmy.
+Required: 
+	- dostęp do kodu źródłowego strony (plik.php)
+	- komputer z jakimś edytorem tekstu
